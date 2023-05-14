@@ -1,0 +1,16 @@
+@import url(https://use.fontawesome.com/releases/v5.13.0/css/all.css);
+@import url("//indestructibletype.com/fonts/Jost.css?family=Jost:800");
+
+.main-header .logo {
+	font-family: "Jost";
+	font-weight: 800;
+	line-height: 1.7;
+	font-size: 28px;
+	text-align: center;
+	color: #2c2f33;
+	background-color: #292A30 !important;
+    }
+                                                           
+.navbar {
+	background-color: #292A30 !important;
+    }

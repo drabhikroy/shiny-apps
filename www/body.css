@@ -1,0 +1,270 @@
+<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+
+@import url('//indestructibletype.com/fonts/Jost.css?family=Jost:800');
+@import url('//indestructibletype.com/fonts/Jost.css?family=Jost:700');
+@import url('//indestructibletype.com/fonts/Jost.css?family=Jost:600');
+@import url('//indestructibletype.com/fonts/Jost.css?family=Jost:500');
+@import url('//indestructibletype.com/fonts/Jost.css?family=Jost:400');
+@import url('//indestructibletype.com/fonts/Jost.css?family=Jost:300');
+@import url('//indestructibletype.com/fonts/Jost.css?family=Jost:200');
+
+body {
+    font-family: "Jost";
+    font-weight: 400;
+    font-size: 1.50rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0 0.9375rem;
+    background-color: #292A30;
+		background-image: none;
+		color: #FFFFFF
+	}
+
+
+h1 {
+	font-family: 'Jost';
+	font-weight: 800;
+	font-size: 1.75rem;
+	display: flex;
+	flex-direction: column;
+	background-color: #292A30;
+	color: #FFFFFF
+	}
+
+
+h2 {
+	font-family: 'Jost';
+	font-weight: 700;
+	font-size: 1.75rem;
+	display: flex;
+	flex-direction: column;
+	background-color: #292A30;
+	color: #FFFFFF
+	}
+
+
+h3 {
+	font-family: 'Jost';
+		margin-top: 20px;
+	font-weight: 600;
+	font-size: 1.75rem;
+	display: flex;
+	flex-direction: column;
+	background-color: #292A30;
+	color: #FFFFFF
+	}
+
+h4 {
+	font-family: 'Jost';
+	font-weight: 400;
+	font-size: 1.75rem;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	padding: 0 0.9375rem;
+	background-color: #292A30;
+	color: #FFFFFF
+	}
+
+h5 {
+	font-family: 'Jost';
+	font-weight: 300;
+	font-size: 1.50rem;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	padding: 0 0.9375rem;
+	background-color: #292A30;
+	color: #FFFFFF
+	}
+
+  h6 {
+  	font-family: 'Jost';
+  	font-weight: 200;
+  	font-size: 1.50rem;
+    font-style: italic;
+    text-align: right;
+  	display: flex;
+  	flex-direction: column;
+  	margin: 0 auto;
+  	padding: 0 0.9375rem;
+  	background-color: #292A30;
+  	color: #FFFFFF
+  	}
+
+table.dataTable tr.selected td, table.dataTable td.selected
+		{background-color: #292A30;}
+
+
+.tab-pane {
+	background-color: #292A30;
+	border-color: #292A30;
+	box-shadow: 0 1px 1px rgba(0,0,0,0);
+	}
+
+.navbar {
+	margin-bottom: 0.5px;
+	}
+
+.nav-tabs-custom {
+	margin-bottom: 0px;
+	box-shadow: 0 1px 1px rgba(0,0,0,0);
+	background-color: #292A30;
+	border-radius: 0px;
+}
+
+.nav-tabs-custom>.tab-content {
+	background-color: #292A30;
+	padding: 0px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border: 10px;
+	box-shadow: 0 1px 1px rgba(0,0,0,0);
+	}
+
+.nav-tabs-custom>.nav-tabs {
+	border-bottom-color: #292A30;
+}
+
+/*	.tab-content .nav-tabs li.active:hover a, .nav-tabs-custom .nav-tabs li.active a {
+	border-color: #292A30;
+	color: #FFFFFF;
+	background-color: #292A30;
+	font-family: 'Jost';
+	font-weight: 600;
+	padding: 0px;
+	height: 0px;
+box-shadow: 0 1px 1px rgba(0,0,0,0);
+	}
+  */
+
+.nav-tabs-custom .nav-tabs li.active {
+	border-top-color: #292A30;
+	}
+
+
+/* logo */
+.skin-blue .main-header .logo {
+	background-color: #292A30;
+	}
+
+/* logo when hovered */
+.skin-blue .main-header .logo:hover {
+	background-color: #292A30;
+	}
+
+/* navbar (rest of the header) */
+.skin-blue .main-header .navbar {
+	background-color: #292A30;
+	}
+
+/* main sidebar */
+.skin-blue .main-sidebar {
+	background-color: #292A30;
+	}
+
+/* active selected tab in the sidebarmenu */
+.skin-blue .main-sidebar .sidebar .sidebar-menu .active a{
+	background-color: #292A30;
+	}
+
+/* other links in the sidebarmenu */
+.skin-blue .main-sidebar .sidebar .sidebar-menu a{
+	background-color: #292A30;
+	color: #FFFFFF;
+	font-family: "Jost";
+	font-weight: 500;
+	}
+
+/* other links in the sidebarmenu when hovered */
+.skin-blue .main-sidebar .sidebar .sidebar-menu a:hover{
+	background-color:#4682b4;
+	}
+
+/* toggle button when hovered  */
+.skin-blue .main-header .navbar .sidebar-toggle:hover{
+	background-color: #292A30;
+	}
+
+/* body */
+.content-wrapper, .right-side {
+	background-color: #292A30;
+	color: #FFFFFF;
+	}
+
+  .btn-primary {
+      color: #212529;
+      background-color: #7cc;
+      border-color: #5bc2c2
+  }
+
+  .btn-primary:hover {
+      color: #212529;
+      background-color: #52bebe;
+      border-color: #8ad3d3
+  }
+
+  .btn-primary:focus,
+  .btn-primary.focus {
+      box-shadow: 0 0 0 .2rem rgba(91, 194, 194, 0.5)
+  }
+
+  .btn-primary.disabled,
+  .btn-primary:disabled {
+      color: #212529;
+      background-color: #7cc;
+      border-color: #5bc2c2
+  }
+
+  .btn-primary:not(:disabled):not(.disabled):active,
+  .btn-primary:not(:disabled):not(.disabled).active,
+  .show>.btn-primary.dropdown-toggle {
+      color: #212529;
+      background-color: #9cdada;
+      border-color: #2e7c7c
+  }
+
+  .btn-primary:not(:disabled):not(.disabled):active:focus,
+  .btn-primary:not(:disabled):not(.disabled).active:focus,
+  .show>.btn-primary.dropdown-toggle:focus {
+      box-shadow: 0 0 0 .2rem rgba(91, 194, 194, 0.5)
+  }
+
+  .btn-outline-primary {
+      color: #7cc;
+      background-color: transparent;
+      background-image: none;
+      border-color: #7cc
+  }
+
+  .btn-outline-primary:hover {
+      color: #222;
+      background-color: #8ad3d3;
+      border-color: #7cc
+  }
+
+  .btn-outline-primary:focus,
+  .btn-outline-primary.focus {
+      box-shadow: 0 0 0 .2rem rgba(119, 204, 204, 0.5)
+  }
+
+  .btn-outline-primary.disabled,
+  .btn-outline-primary:disabled {
+      color: #7cc;
+      background-color: transparent
+  }
+
+  .btn-outline-primary:not(:disabled):not(.disabled):active,
+  .btn-outline-primary:not(:disabled):not(.disabled).active,
+  .show>.btn-outline-primary.dropdown-toggle {
+      color: #212529;
+      background-color: #8ad3d3;
+      border-color: #7cc
+  }
+
+  .btn-outline-primary:not(:disabled):not(.disabled):active:focus,
+  .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
+  .show>.btn-outline-primary.dropdown-toggle:focus {
+      box-shadow: 0 0 0 .2rem rgba(119, 204, 204, 0.5)
+  }
