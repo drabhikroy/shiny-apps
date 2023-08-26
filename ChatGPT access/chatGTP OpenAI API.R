@@ -87,7 +87,7 @@ ui <- fluidPage(
         inputId = "prompt", 
         label = "Enter your prompt below:",
         value = '',
-        placeholder = "eg: Write a 100 word introductory paragraph on the reasons that Nickelback is the worst band ever to have existed.",
+        placeholder = "e.g.: Write a 100 word introductory paragraph on how wild it is that we can only measure the speed of light in one direction.",
         height = "200px",
         resize = "both"),
       actionButton("submit", "Submit"),
@@ -205,6 +205,6 @@ server <- function(input, output, session) {
 
 shinyApp(ui = ui, server = server)
 
-# Adapted by Abhik Roy from https://github.com/machinatoonist/prompt-code/blob/main/Shiny-app/shiny-app-to-access-openai-api.R
+# Adapted from https://github.com/machinatoonist/prompt-code/blob/main/Shiny-app/shiny-app-to-access-openai-api.R
 
 # Under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License
