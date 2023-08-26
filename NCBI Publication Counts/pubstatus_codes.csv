@@ -1,0 +1,17 @@
+﻿pubstatus,code,status,filter
+received,1,received for review,1
+accepted,2,accepted for publication,2
+epublish,3,published electronically by publisher,3
+ppublish,4,published in print by publisher,4
+revised,5,revised by publisher/author,5
+pmc,6,first appeared in PubMed Central,6
+pmcr,7,revision in PubMed Central,7
+pubmed,8,citation first appeared in PubMed,8
+pubmedr,9,citation revision in PubMed,9
+aheadofprint,10,epublish followed by print,10
+premedline,11,accepted into PreMEDLINE status,11
+medline,12,MEDLINE record assigned,12
+other,255,i don’t know what this means,255
+entrez,unknown,citation added to the Entrez database,8
+pmc-release,unknown,full-text article released from embargo,99
+retracted,unknown,article retracted by publisher,-1
